@@ -1,3 +1,4 @@
 <?php
-echo "soy rick";
+echo "soy rick agre";
+echo "creo que no sube la pagina"
 ?>
