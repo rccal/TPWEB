@@ -1,3 +1,3 @@
 <?php 
-"Taller de programacion Web";
+"Taller de programacion We0b";
 ?>
