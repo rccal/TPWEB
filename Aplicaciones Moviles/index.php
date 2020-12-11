@@ -8,6 +8,6 @@
 </head>
 <body>
     <h3>aun no hice la pagina</h3>
-    <h4>JC ECHO</h4>
+    <h4>JEAN C</h4>
 </body>
 </html>
