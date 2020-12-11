@@ -1,6 +1,4 @@
-<?php 
-echo "Hola JC";
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +7,6 @@ echo "Hola JC";
     <title>Inicio</title>
 </head>
 <body>
-    <h3>hola jc</h3>
+    <h3>aun no hice la pagina</h3>
 </body>
 </html>
