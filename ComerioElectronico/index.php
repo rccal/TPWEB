@@ -1,3 +1,3 @@
 <?php 
-"pagiana de la unidad didactica Comercio Electronico";
+"pagina de la unidad didactica Comercio Electronico";
 ?>
