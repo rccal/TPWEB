@@ -17,7 +17,7 @@
                 </p>
             </div>
             <div class="objetivos">
-                <h2>objetivos y </h2>
+                <h2>objetivos</h2>
                 <ol>
                     <li>
                         Reconocer, interpretar y aplicar el marco legal que describe los derechos y obligaciones en las
