@@ -1,3 +1,3 @@
 <?php 
-"Legislacion 1.0";
+"hola mundo";
 ?>
