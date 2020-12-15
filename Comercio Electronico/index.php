@@ -9,9 +9,6 @@
 
 <body>
 
-
-
-
     <h1>Comercio Electronico</h1>
     <div>
         <h3>¿Que es el Comercio Electronico?</h3>
@@ -76,35 +73,3 @@
 
 </html>
 
-<style>
-    html {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        text-align: center;
-    }
-
-    #contenedor {
-        text-align: left;
-        width: 100%;
-        margin: auto;
-    }
-
-    #lateral {
-        width: 49%;
-        float: right;
-        border: #000000 1px solid;
-
-    }
-
-    #principal {
-        width: 49%;
-        float: left;
-        background-color: #FFFFFF;
-        border: #000000 1px solid;
-    }
-</style>
