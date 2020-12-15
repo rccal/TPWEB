@@ -12,7 +12,8 @@
                         <div class="card-header">
                             <h1 class="text-center">MIS CURSOS VI SEMERSTRE</h1>
                             </div>
-                                <div class="row">
+                            <div class="container">
+                            <div class="row">
                                     <div class="col-md-4">
                                         <div class="card m-3 " style="width: 18rem;">
                                             <img class="card-img-top" src="img/gcfggmaps-01_xl.png" alt="Card image cap" >
@@ -76,6 +77,9 @@
                                         </div>
                                     </div>
                                 </div>
+                            
+                            </div>
+                                
                             </div>                    
                         </div>
                     </div>
