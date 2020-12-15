@@ -10,7 +10,7 @@
 <section style="padding-top:60px;">
                     <div class="card">
                         <div class="card-header">
-                            <h1 class="text-center">Mis cursos</h1>
+                            <h1 class="text-center">MIS CURSOS VI SEMERSTRE</h1>
                             </div>
                                 <div class="row">
                                     <div class="col-md-4">
