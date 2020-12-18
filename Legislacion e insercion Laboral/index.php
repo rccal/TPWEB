@@ -4,13 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        .img
+        {
+            width: 100% !important;
+            height: 99vh !important;
+        }
+        .wh
+        {
+            width: 100% !important;
+            height: 230px !important;
+        }
+    </style>
     <title>Legislacion e Insercion Laboral</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.php">inicio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/legislacion0.jpg" class="img">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/legislacion.png" class="img">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/legislacion1.png" class="img">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/legislacion2.jpg" class="img">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <br>
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-8">
                     <div class="card">
                         <div class="card-body">
                             <h3 class="card-title">¿que es la legislacion e insercion laboral?</h3>
@@ -22,14 +73,20 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <img src="../img/img1.jpg" class="w-80">
+                </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
+                    <iframe width="480" height="270" src="https://www.powtoon.com/embed/ebAsCe3YpRY/" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
                     <div class="card">
                         <div class="card-body">
                             <h3 class="card-title">objetivos</h3>
                             <p class="card-text">
-                                <ol>
+                                <ul>
                                     <li>
                                         Reconocer, interpretar y aplicar el marco legal que describe los derechos y obligaciones en las
                                         relaciones laborales para utilizar los procedimientos de inserción en el mercado laboral y las posibilidades
@@ -43,40 +100,171 @@
                                         Valora y establece rasgos como profesional y asume con responsabilidad y respeto la búsqueda de empleo
                                         e inserción en el mercado laboral.
                                     </li>
-                                </ol>
+                                </ul>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
+            <br>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-4 text-center">
                     <div class="card">
+                        <div class="card-header">
+                            Normas legales laborales
+                        </div>
                         <div class="card-body">
-                            <h3 class="card-title">Actividades de Aprendizaje</h3>
-                            <p class="card-text">         
-                                <ol>
-                                    <li>Normas legales laborales</li>
-                                    <li>Los derechos laborales:Jornada y horario de trabajo.</li>
-                                    <li>Derechos de los trabajadores: Descansos remunerados y vacaciones.</li>
-                                    <li>Normas legales laborales: Remuneración mínima vital y gratificaciones.</li>
-                                    <li>Derechos de los trabajadores: Asignación familiar Bonificación por tiempo de servicios.</li>
-                                    <li>La compensación por tiempo de servicio.</li>
-                                    <li>Derecho de los trabajadores: Participación en las utilidades de la empresa</li>
-                                    <li>Ley de Fomento del Empleo.</li>
-                                    <li>Práctica Pre y Profesionales.</li>
-                                    <li>a El mercado laboral</li>
-                                    <li>FODA y marketing personal</li>
-                                    <li>Taller Búsqueda de empleo – Ministerio de Trabajo</li>
-                                    <li>Perfil profesional</li>
-                                    <li>Proceso de selección de personal</li>
-                                </ol>
-                            </p>
+                            <img class="wh" src="../img/card1.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Los derechos laborales:Jornada y horario de trabajo
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card2.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Derechos de los trabajadores: Descansos remunerados y vacaciones
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Normas legales laborales: Remuneración mínima vital y gratificaciones
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card4.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Derechos de los trabajadores: Asignación familiar Bonificación por tiempo de servicios
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card5.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            La compensación por tiempo de servicio
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card6.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Derecho de los trabajadores: Participación en las utilidades de la empresa
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card7.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Ley de Fomento del Empleo
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card8.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Práctica Pre y Profesionales
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card9.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            El mercado laboral
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card10.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            FODA y marketing personal
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card11.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Taller Búsqueda de empleo – Ministerio de Trabajo
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card12.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="offset-md-2 col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Perfil profesional
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card13.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Proceso de selección de personal
+                        </div>
+                        <div class="card-body">
+                            <img class="wh" src="../img/card14.jpg">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </body>
 </html>
