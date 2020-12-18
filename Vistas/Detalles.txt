@@ -1,3 +1,5 @@
+https://github.com/rccal/TPWEB.git  
+
 *Ccallo Ricardo => Crear repositorio GitHub.
 *Willis Dussan => Creación de Carpetas.
 *Cancinas Denis - (Taller de Programación Web)
@@ -5,3 +7,4 @@
 *Cusipuma Jean - (Aplicaciones Móviles)---
 *Rojas Yurí - (Gestión y Administración Web)---
 *Uscapi Damian - (Legislación e Inserción Laboral)
+*Condori Edward - (Organización y Constitución de Empresas)
