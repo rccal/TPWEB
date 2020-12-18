@@ -7,7 +7,8 @@
     <title>Inicio</title>
 </head>
 <body>
-    <h3>aun no hice la pagina</h3>
-    <h4>JEAN C</h4>
+    <h3>pagina web</h3>
+    <h4>JEAN C prueba actualizar</h4>
+    <h2>hola prueba</h2>
 </body>
 </html>
