@@ -13,7 +13,7 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
-                            <h3 class="card-title">¿que es la legislacion e insercion laboral</h3>
+                            <h3 class="card-title">¿que es la legislacion e insercion laboral?</h3>
                                 <p class="card-text">
                                     Entendemos por Normas Laborales o legislación laboral a aquel conjunto de leyes y normas que
                                     tienen por objetivo regularizar las actividades laborales, ya sea en lo que respecta a los derechos del
