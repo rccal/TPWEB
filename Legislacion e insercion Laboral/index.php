@@ -8,7 +8,7 @@
         .img
         {
             width: 100% !important;
-            height: 99vh !important;
+            height: 93vh !important;
         }
         .wh
         {
@@ -116,11 +116,11 @@
             <br>
             <div class="row text-center">
                 <div class="offset-md-4 col-md-4">
-                    <h2 class="text-light  t border-bottom">actividades del curso</h2>
+                    <h2 class="text-light  t border-bottom">ACTIVIDADES DEL CURSO</h2>
                 </div>
             </div>
             <br>
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-md-4 text-center">
                     <div class="card">
                         <div class="card-header">
@@ -153,7 +153,7 @@
                 </div>
             </div>
             <br>
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-header">
@@ -186,7 +186,7 @@
                 </div>
             </div>
             <br>
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-header">
@@ -219,7 +219,7 @@
                 </div>
             </div>
             <br>
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-header">
@@ -252,7 +252,7 @@
                 </div>
             </div>
             <br>
-            <div class="row">
+            <div class="row text-center">
                 <div class="offset-md-2 col-md-4">
                     <div class="card">
                         <div class="card-header">
