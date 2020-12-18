@@ -15,6 +15,14 @@
             width: 100% !important;
             height: 230px !important;
         }
+        .t
+        {
+            font-size: 40px;
+        }
+        .p
+        {
+            font-size: 23px;
+        }
     </style>
     <title>Legislacion e Insercion Laboral</title>
 </head>
@@ -66,36 +74,38 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <h3 class="text-light border-bottom">¿que es la legislacion e insercion laboral?</h3>
-                    <p class="text-light">
+                <div class="col-md-5">
+                    <br><br>
+                    <h3 class="text-light t">LEGISLACION LABORAL</h3>
+                    <p class="text-light p">
                         Entendemos por Normas Laborales o legislación laboral a aquel conjunto de leyes y normas que
                         tienen por objetivo regularizar las actividades laborales, ya sea en lo que respecta a los derechos del
                         trabajador, como también a sus obligaciones y lo mismo para el empleador.
                     </p>
                 </div>
-                <div class="col-md-4">
-                    <img src="../img/img1.jpg" class="im" width="100%" height="65%">
+                <div class="col-md-7">
+                    <img src="../img/img1.jpg" class="rounded" width="100%" height="100%">
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-md-6">
-                    <iframe width="100%" height="100%" src="https://www.powtoon.com/embed/ebAsCe3YpRY/" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="100%" class="rounded" height="100%" src="https://www.powtoon.com/embed/ebAsCe3YpRY/" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-6">
                     <div class="cardM">
-                        <h3 class="text-light border-bottom">objetivos</h3>
+                        <h3 class="text-light t">OBJETIVOS</h3>
                             <ul>
-                                    <li class="text-light">
+                                    <li class="text-light p">
                                         Reconocer, interpretar y aplicar el marco legal que describe los derechos y obligaciones en las
                                         relaciones laborales para utilizar los procedimientos de inserción en el mercado laboral y las posibilidades
                                         de empleo.
                                     </li>
-                                    <li class="text-light">
+                                    <li class="text-light p">
                                         Interpreta, utiliza y valora las fuentes básicas de información del Derecho Laboral examinando los
                                         deberes y derechos que involucren a las partes
                                     </li>
-                                    <li class="text-light">
+                                    <li class="text-light p">
                                         Valora y establece rasgos como profesional y asume con responsabilidad y respeto la búsqueda de empleo
                                         e inserción en el mercado laboral.
                                     </li>
@@ -106,7 +116,7 @@
             <br>
             <div class="row text-center">
                 <div class="offset-md-4 col-md-4">
-                    <h2 class="text-light border-bottom">actividades del curso</h2>
+                    <h2 class="text-light  t border-bottom">actividades del curso</h2>
                 </div>
             </div>
             <br>
