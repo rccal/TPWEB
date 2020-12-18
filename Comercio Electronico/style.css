@@ -1,0 +1,20 @@
+body {
+    background: rgb(48, 52, 56);
+    color: snow;
+}
+
+footer {
+    background-color: rgb(48, 52, 56);
+    padding: 25px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    min-height: 200px;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
