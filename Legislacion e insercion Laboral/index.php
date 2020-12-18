@@ -67,16 +67,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">¿que es la legislacion e insercion laboral?</h3>
-                                <p class="card-text">
-                                    Entendemos por Normas Laborales o legislación laboral a aquel conjunto de leyes y normas que
-                                    tienen por objetivo regularizar las actividades laborales, ya sea en lo que respecta a los derechos del
-                                    trabajador, como también a sus obligaciones y lo mismo para el empleador.
-                                </p>
-                        </div>
-                    </div>
+                    <h3 class="text-light border-bottom">¿que es la legislacion e insercion laboral?</h3>
+                    <p class="text-light">
+                        Entendemos por Normas Laborales o legislación laboral a aquel conjunto de leyes y normas que
+                        tienen por objetivo regularizar las actividades laborales, ya sea en lo que respecta a los derechos del
+                        trabajador, como también a sus obligaciones y lo mismo para el empleador.
+                    </p>
                 </div>
                 <div class="col-md-4">
                     <img src="../img/img1.jpg" class="im" width="100%" height="65%">
@@ -87,27 +83,23 @@
                     <iframe width="100%" height="100%" src="https://www.powtoon.com/embed/ebAsCe3YpRY/" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">objetivos</h3>
-                            <p class="card-text">
-                                <ul>
-                                    <li>
+                    <div class="cardM">
+                        <h3 class="text-light border-bottom">objetivos</h3>
+                            <ul>
+                                    <li class="text-light">
                                         Reconocer, interpretar y aplicar el marco legal que describe los derechos y obligaciones en las
                                         relaciones laborales para utilizar los procedimientos de inserción en el mercado laboral y las posibilidades
                                         de empleo.
                                     </li>
-                                    <li>
+                                    <li class="text-light">
                                         Interpreta, utiliza y valora las fuentes básicas de información del Derecho Laboral examinando los
                                         deberes y derechos que involucren a las partes
                                     </li>
-                                    <li>
+                                    <li class="text-light">
                                         Valora y establece rasgos como profesional y asume con responsabilidad y respeto la búsqueda de empleo
                                         e inserción en el mercado laboral.
                                     </li>
-                                </ul>
-                            </p>
-                        </div>
+                            </ul>
                     </div>
                 </div>
             </div>
