@@ -14,23 +14,11 @@
     <section class="navbarInicial">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
             <div class="container-xl">
-                <a class="navbar-brand hidden-lg-up " href="#"><img src="#" alt="">Aplicaciones móviles:</a>
+                <a class="navbar-brand hidden-lg-up " href="#"><img src="#" alt="">Aplicaciones móviles</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarsExample07XL">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-toggle="dropdown" aria-expanded="false">Productos</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown07XL">
-                                <a class="dropdown-item" href="#">Tortas</a>
-                                <a class="dropdown-item" href="#">Panes</a>
-                            </div>
-                        </li>
-                    </ul>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Nosotros</a>
@@ -38,17 +26,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contáctanos</a>
                         </li>
-                        <!--ruta para entrar => public/usuarios/login   -->
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#">Log-in</a>
-                        </li>
-                        <!--Crud Administrador -->
                     </ul>
                 </div>
             </div>
         </nav>
     </section>
-    <section class="carouselPrincipal" >
+    <section class="carouselPrincipal">
         <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -58,27 +41,27 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/inicio.jpg" alt="" />
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1 class="m-b-20"><strong>Curso de: <br> Aplicaciones Mobiles <br> JeanC</strong></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/appmob.jpg" alt="" />
+
                     <div class="container">
-                        <div class="carousel-caption text-left">
-                        <h1>AUN FALTA APLICAR CSS</h1>
-                            <!-- <h1>!fiesta Dulce!</h1>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Pedir</a></p>-->
+                        <div class="carousel-caption">
+                            <!-- <h1>App Nativas</h1> -->
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/nativaVShibrida.jpg" alt="" />
                     <div class="container">
-                        <div class="carousel-caption">
-                            <h1>App Nativas</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/inicio.jpg" alt="" />
-                    <div class="container">
                         <div class="carousel-caption text-right">
-                            <h1>Apps Hibridas</h1>
                         </div>
                     </div>
                 </div>
@@ -96,12 +79,13 @@
     </section>
     <section class="descripcion">
         <div class="container-md">
-            <div class="row">
+            <div class="row" id="titulo">
                 <div class="col-md-12 ml-auto" style="text-align: center;">
                     <h2>Aplicaciones Mobiles: Tipos y Diferencias </h2>
+                    <hr class="tituloP text-center">
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="cardCuadros1">
                 <div class="col-md-6 ml-auto">
                     <div class="cardCuadros">
                         <h4>¿Qué es una aplicación móvil?</h4>
@@ -113,14 +97,14 @@
                     </div>
                 </div>
                 <div class="col-md-6 ml-auto">
-                    <div class="cardCuadros">
+                    <div class="cardCuadrosIMG">
                         <img src="img/appmob.jpg" class="card-img-top" alt="Que es una aplicacion movil">
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="cardCuadros1">
                 <div class="col-md-6 ml-auto">
-                    <div class="cardCuadros">
+                    <div class="cardCuadrosIMG">
                         <img src="img/appmob2.jpg" class="card-img-top" alt="Que es una aplicacion movil">
                     </div>
                 </div>
@@ -141,9 +125,10 @@
             <div class="row">
                 <div class="col-md-12 ml-auto" style="text-align: center;">
                     <h4>Tipos de aplicaciones móviles</h4>
+                    <hr class="tituloP text-center">
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="cardCuadros1">
                 <div class="col-md-6 ml-auto">
                     <div class="cardCuadros">
                         <h4>Aplicaciones móviles Hibridas</h4>
@@ -154,7 +139,9 @@
                             como, iOS, Android. Por lo tanto en las aplicaciones híbridas, los
                             componentes son variables y no identifican el estilo de un determinado
                             sistema operativo.</p>
-                        <img src="img/appmobHibrida.png" class="card-img-top" alt="Que es una aplicacion movil">
+                        <div class="cardCuadrosIMG">
+                            <img src="img/appmobHibrida.png" class="card-img-top" alt="Que es una aplicacion movil">
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 ml-auto">
@@ -166,7 +153,9 @@
                             para la misma. Por ejemplo, para desarrollar en Android se utiliza Java,
                             en iOS Objective C, y ahora también el nuevo Swift, y en Windows Phone se
                             usa C# y Visual Basic. NET.</p>
-                        <img src="img/appmobNativ.png" class="card-img-top" alt="Que es una aplicacion movil">
+                        <div class="cardCuadrosIMG">
+                            <img src="img/appmobNativ.png" class="card-img-top" alt="Que es una aplicacion movil">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -178,7 +167,9 @@
                             mientras que una híbrida se podría considerar un traje estándar de nuestra talla,
                             que cumple su función correctamente, no tiene un costes excesivo ni la comodidad
                             del traje del sastre pero es funcional.</p>
-                        <img src="img/nativaVShibrida.jpg" class="card-img-top" alt="Que es una aplicacion movil">
+                        <div class="imgDiferenciaGrande">
+                            <img src="img/nativaVShibrida.jpg" class="card-img-top" alt="Que es una aplicacion movil">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -191,7 +182,9 @@
                             aprovechará mejor los recursos del terminal. Mientras que la híbrida necesita
                             el navegador nativo para funcionar, utiliza una capa más de recursos lo que se
                             traduce en un rendimiento menor, puesto que no está optimizada igual que la nativa.</p>
-                        <img src="img/difRendimiento.jpg" class="card-img-top" alt="Que es una aplicacion movil">
+                        <div class="imgDiferenciaGrande">
+                            <img src="img/difRendimiento.jpg" class="card-img-top" alt="Que es una aplicacion movil">
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-12 ml-auto">
@@ -234,8 +227,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 ml-auto" style="text-align: center; padding:10rem;">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 md-auto justify-content-center text-center">
                     <h4>Conclusion</h4>
+                    <hr class="tituloP text-center">
                     <div class="conclusionInicial" style="text-align: justify;">
                         <p>Antes de elegir el tipos de aplicación para desarrollar, debemos tener muy
                             presentes estos dos factores por encima de todo:</p>
@@ -254,19 +249,22 @@
                         </p>
                     </div>
                 </div>
+                <div class="col-md-1"></div>
             </div>
         </div>
     </section>
-    <section class="footer" style="background-color: #0002; color: #2bf2f2; font-size:1em;">  
-      <div class="row">
-          <div class="col-md-12 ml-auto">
-              <p>derechos reservados por @JeanC 2021</p>
-          </div>
-      </div>
+    <section class="footer">
+        <div class="row">
+            <div class="col-md-12 ml-auto">
+                <p>Derechos Reservados por @JeanC 2021</p>
+            </div>
+        </div>
     </section>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
+    <script src="js/skrin.js"></script>
+
 </body>
 
 </html>

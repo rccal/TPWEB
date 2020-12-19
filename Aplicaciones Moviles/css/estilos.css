@@ -1,23 +1,99 @@
 * {
+  top: 0;
   padding: 0;
   margin: 0;
 }
 body {
-  background: #040d15;
-  padding-top: 3rem;
-  color:#fff;
+  background: #88ccf1;
+  color: #fff;
+  padding-top: 4em;
+}
+/*Navbar*/
+.navbar {
+  background: #2d848a !important;
+  margin-bottom: 20px;
+  padding: 0.7em 0;
+}
+.navbar-brand {
+  color: #2bf2f2 !important;
+}
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-collapse {
+  padding: 0 1em 0 1em;
+}
+
+.navbar-collapse .nav-item {
+  font-size: 1.1em;
+  margin: 0 7px;
+}
+ul.navbar-nav li a.nav-link {
+  color: #2bf2f2 !important;
+}
+
+ul.navbar-nav li a.nav-link:hover {
+  color: #fff !important;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+/*capturar el movimiento del scroll */
+.shrink {
+  /*background: #fff !important;*/
+  -webkit-box-shadow: 1px 2px 4px 0px #00000075 !important;
+  box-shadow: 1px 2px 4px 0px #00000075 !important;
+  height: 4em !important;
+}
+
+.shrink ul.navbar-nav li a.nav-link {
+  /*color: #222222 !important;*/
+  color: #fff !important;
+}
+
+.shrink ul.navbar-nav li a.nav-link:hover {
+  color: #2bf2f2 !important;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.shrink .navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 995px) {
+  .shrink .navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.9) !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
 }
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .carouselPrincipal {
+  width: 100%;
   min-height: auto;
   background: transparent;
   z-index: -1;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 .carousel {
-  margin-bottom: 4rem;
+  width: 100%;
+
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -40,8 +116,8 @@ body {
   height: 100%;
 }
 .carousel-inner h1 {
-    color: #2bf2f2;
-  }
+  color: #2bf2f2;
+}
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: calc(100vh - 3rem);
@@ -55,6 +131,8 @@ body {
   height: 100%;
   background-size: cover !important;
   background-position: center;
+  background: #333;
+  opacity: 0.6;
 }
 
 .carousel-inner .btn-primary {
@@ -72,4 +150,116 @@ body {
   font-size: 12px;
   padding: 15px 30px;
   margin-top: 10px;
+}
+/*btsp*/
+.slides-navigation a {
+  background: #d65106;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  font-size: 20px;
+  display: block;
+  color: #fff;
+  border-radius: 4px;
+  line-height: 63px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.carouselPrincipal .overlay-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.carouselPrincipal .container {
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  padding: 2em;
+}
+.carouselPrincipal .container > .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.carouselPrincipal .container > .row {
+  height: 100%;
+}
+/*----------------Descripcion-------------------*/
+.descripcion .container-md {
+  box-shadow: 1px 2px 10px 0px #fff !important;
+  background-color: #2d848a;
+}
+.descripcion #titulo {
+  padding: 2rem;
+  border-bottom: 1em;
+}
+
+.descripcion .row {
+  padding: 2em;
+}
+
+.descripcion .container-md #cardCuadros1 {
+  padding: 1em;
+  /*IMPORTANTE*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descripcion .container-md .cardCuadros {
+  padding: 2px;
+  text-align: justify;
+}
+.descripcion .container-md .cardCuadros h4 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.descripcion .container-md #cardCuadros1 .cardCuadrosIMG {
+  width: 100%;
+  height: 18em;
+  margin: 0px auto;
+  text-align: center;
+}
+.descripcion .container-md #cardCuadros1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+  vertical-align: middle;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.descripcion .container-md #cardCuadros1 img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.imgDiferenciaGrande {
+  width: 100%;
+  height: 25em;
+  margin: 0px auto;
+  text-align: center;
+}
+.imgDiferenciaGrande img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+  vertical-align: middle;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.imgDiferenciaGrande img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+.footer {
+  background-color: #2b2b2b;
+  padding: 3px;
+  color: #2bf2f2;
+  font-size: 1em;
+}
+.footer p {
+  padding-top: 1em;
 }
