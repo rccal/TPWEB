@@ -16,7 +16,7 @@
                             <div class="row">
                                     <div class="col-md-4">
                                         <div class="card m-3 " style="width: 18rem;">
-                                            <img class="card-img-top" src="img/gcfggmaps-01_xl.png" alt="Card image cap" >
+                                            <img class="card-img-top" src="img/appmob.jpg" alt="Card image cap" >
                                             <div class="card-body">
                                                 <h5 class="card-title">Aplicaciones moviles</h5>
                                                 <p class="card-text">Una aplicación móvil, una aplicación, una apli​o una app, es una aplicación informática diseñada para ser ejecutada en teléfonos inteligentes, tabletas y otros dispositivos móviles.</p>
